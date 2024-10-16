@@ -1,0 +1,121 @@
+[
+    {
+        "ID": "3",
+        "type": "woman",
+        "store": "zozo atlah",
+        "name": "dress1",
+        "size": "XL",
+        "color": "white",
+        "price1": "100$",
+        "price2": "",
+        "img": "img/atlah/34358fbd01237196e2ef842bcf5a27e9.jpg"
+    },
+    {
+        "ID": "1",
+        "type": "woman",
+        "store": "momo atlah",
+        "name": "dress1",
+        "size": "XL",
+        "color": "white",
+        "price1": "100$",
+        "price2": "",
+        "img": "img/atlah/34358fbd01237196e2ef842bcf5a27e9.jpg"
+    },
+    {
+        "ID": "3",
+        "store": "zozo atlah",
+        "type": "woman",
+        "name": "dress1",
+        "size": "XL",
+        "color": "white",
+        "price1": "400$",
+        "price2": "",
+        "img": "img/atlah/936357bfc41932701e36e8a05c27635a.jpg"
+    },
+    {
+        "ID": "2",
+        "store": "bobo atlah",
+        "type": "woman",
+        "name": "dress1",
+        "size": "XL",
+        "color": "white",
+        "price1": "400$",
+        "price2": "",
+        "img": "img/atlah/936357bfc41932701e36e8a05c27635a.jpg"
+    },
+    {
+        "ID": "1",
+        "store": "lolo atlah",
+        "type": "woman",
+        "name": "dress1",
+        "size": "XL",
+        "color": "white",
+        "price1": "100$",
+        "price2": "",
+        "img": "img/atlah/936357bfc41932701e36e8a05c27635a.jpg"
+    },
+    {
+        "ID": "1",
+        "store": "lolo atlah",
+        "type": "woman",
+        "name": "dress1",
+        "size": "XL",
+        "color": "white",
+        "price1": "300$",
+        "price2": "",
+        "img": "img/atlah/fd8786ea689461e702c4ae929ab3abce.jpg"
+    },
+    {
+        "ID": "1",
+        "store": "lolo atlah",
+        "type": "woman",
+        "name": "dress2",
+        "size": "XL",
+        "color": "white",
+        "price1": "900$",
+        "price2": "",
+        "img": "img/atlah/fb9a9bfca2e356e1a1afc1e6b7275a17.jpg"
+    },
+    {
+        "ID": "2",
+        "store": "soso atlah",
+        "type": "woman",
+        "name": "dress3",
+        "size": "XL",
+        "color": "white",
+        "price1": "100$",
+        "price2": "",
+        "img": "img/atlah/fd8786ea689461e702c4ae929ab3abce.jpg"
+    },
+    {
+        "ID": "2",
+        "store": "soso atlah",
+        "type": "woman",
+        "name": "dress1",
+        "size": "XL",
+        "color": "white",
+        "img": "img/atlah/7cc24cf2920ede2fcbf480a9b5cdc1db.jpg"
+    },
+    {
+        "ID": "1",
+        "type": "woman",
+        "store": "momo atlah",
+        "name": "dress5",
+        "size": "XL",
+        "color": "white",
+        "price1": "200$",
+        "price2": "",
+        "img": "img/atlah/870fd8521ac815c50c91b273d3e4e83a.jpg"
+    },
+    {
+        "ID": "2",
+        "store": "bobo atlah",
+        "type": "woman",
+        "name": "dress5",
+        "size": "XL",
+        "color": "white",
+        "price1": "700$",
+        "price2": "",
+        "img": "img/atlah/7cb16c8805accab51a84ccdf00cb51d5.jpg"
+    }
+]

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/atlah.css" rel="stylesheet" />
+    
+    <script src="/js/bootstrap.js"></script>
+    <title>weddingly</title>
+  </head>
+  <body>
+    <!-- 
+  navbar
+  -->
+  <nav class="navbar navbar-expand-lg">
+    <a
+      class="btn me-auto"
+      data-bs-toggle="offcanvas"
+      href="#offcanvasExample"
+      role="button"
+      aria-controls="offcanvasExample"
+    >
+      <img src="/img/icon//burger-bar (1).png" />
+    </a>
+    <img id="logo" class="small" src="/img/logo.png" />
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">weddingly</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul id="offlist">
+          <li id="off">
+            <a id="link" href="/home.html">Home</a>
+          </li>
+          <li id="off">
+            <a id="link" href="#">package</a>
+          </li>
+          <li id="off">
+            <div class="dropdown mt-3">
+              <a
+                id="link"
+                class="dropdown-toggle"
+                id="dropdownMenu"
+                data-bs-toggle="dropdown"
+              >
+                services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                <li><a class="dropdown-item dservices" href="#">Vanue</a></li>
+                <li>
+                  <a class="dropdown-item dservices" href="#">photographer</a>
+                </li>
+                <li>
+                  <a class="dropdown-item dservices" href="#">videographer</a>
+                </li>
+                <li>
+                  <a class="dropdown-item dservices" href="#">Decoration</a>
+                </li>
+                <li>
+                  <a class="dropdown-item dservices" href="/invcart.html"
+                    >invitation card</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item dservices" href="/hatlah.html">Atelier</a>
+                </li>
+                <li>
+                  <a class="dropdown-item dservices" href="#">MakeUp</a>
+                </li>
+                <li>
+                  <a class="dropdown-item dservices" href="#">Hair styler</a>
+                </li>
+                <li>
+                  <a class="dropdown-item dservices" href="#">Bouquet</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li id="off">
+            <a id="link" href="#">gifts</a>
+          </li>
+          <li id="off">
+            <a id="link" href="#">about us</a>
+          </li>
+          <li id="off">
+            <a id="link" href="#">contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="mnav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">package</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">services</a>
+        </li>
+        <li class="nav-item">
+          <img id="logo" src="/img/logo.png" />
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">gifts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">about us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">contact us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="navleft ms-auto">
+      <img id="cart" src="/img/icon//grocery-store (1).png" />
+      <div
+        class="modal fade"
+        id="exampleModalToggle"
+        aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <h2 id="logt">Login</h2>
+
+              <form id="forml">
+                <div class="input-box">
+                  <label>
+                    <img class="logicon" src="/img/icon//email.png" />
+                    Email
+                  </label>
+                  <input
+                    id="loginform"
+                    type="email"
+                    placeholder=" Email"
+                    required
+                  />
+                </div>
+                <div class="input-box">
+                  <label>
+                    <img class="logicon" src="/img/icon/lock.png" /> Password
+                  </label>
+                  <input
+                    id="loginform"
+                    type="password"
+                    placeholder="password"
+                    required
+                  />
+                </div>
+                <div class="remember-forget">
+                  <label>
+                    <input type="checkbox" required />
+                    Remeber me
+                  </label>
+                  <a href="#"> Forget Password? </a>
+                </div>
+                <button type="submit" class="btn loginb">Login</button>
+                <div class="login-register">
+                  <p>
+                    Don't have an account?
+                    <a
+                      href="#"
+                      class="register-link"
+                      data-bs-target="#exampleModalToggle2"
+                      data-bs-toggle="modal"
+                      data-bs-dismiss="modal"
+                      >Register</a
+                    >
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModalToggle2"
+        aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <h2 id="logt">Registration</h2>
+              <form id="forml">
+                <div class="input-box">
+                  <label>
+                    <img class="logicon" src="/img/icon/groom1.png" />
+                    Groom's name
+                  </label>
+                  <input
+                    id="loginform"
+                    type="text"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="input-box">
+                  <label>
+                    <img class="logicon" src="/img/icon/bride_6491145.png" />
+                    Bride's name
+                  </label>
+                  <input
+                    id="loginform"
+                    type="text"
+                    placeholder=" Name"
+                    required
+                  />
+                </div>
+                <div class="input-box">
+                  <label>
+                    <img class="logicon" src="/img/icon/email.png" />
+                    Email
+                  </label>
+                  <input
+                    id="loginform"
+                    type="email"
+                    placeholder=" Email "
+                    required
+                  />
+                </div>
+                <div class="input-box">
+                  <label>
+                    <img class="logicon" src="/img/icon/lock.png" /> Password
+                  </label>
+                  <input
+                    id="loginform"
+                    type="password"
+                    placeholder="password"
+                    required
+                  />
+                </div>
+                <div class="remember-forget">
+                  <label>
+                    <input type="checkbox" required />
+                    I agree to the terms & conditions
+                  </label>
+                </div>
+                <button type="submit" class="btn loginb">Register</button>
+                <div class="login-register">
+                  <p>
+                    Already have an account?
+                    <a
+                      href="#"
+                      class="register-link"
+                      data-bs-target="#exampleModalToggle"
+                      data-bs-toggle="modal"
+                      data-bs-dismiss="modal"
+                      >Login</a
+                    >
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="btn login"
+        data-bs-toggle="modal"
+        href="#exampleModalToggle"
+        role="button"
+      >
+        <img id="log" src="/img/icon/log-in.png" /> Login</a
+      >
+    </div>
+  </nav>
+    <!--   main -->
+      
+    <div id="main">
+      <div id="high">
+        <h1 id="ser">Ateliers</h1>
+        
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input id="searchInput" class="form-control me-2" type="search" placeholder="Atelier Name" aria-label="Search">
+            <button class="btn  search" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+      
+      <div id="contener">
+      
+      <div id="cards">
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="row">
+        
+        </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <!--     FOOTER -->
+    <footer class="footer text-white text-center text-lg-start">
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <img id="footerimg" src="/img/logo.png" />
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="store col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">get weddingly app</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!"
+                  ><img
+                    id="store"
+                    src="/img/icon/google-play-badge-logo-svgrepo-com.png"
+                /></a>
+              </li>
+              <li>
+                <a href="#!"
+                  ><img
+                    id="store"
+                    src="/img/icon/download-on-the-app-store-apple-logo-svgrepo-com (1).png"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="icon col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">follow us on</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-white"
+                  ><img id="sicon" src="/img/icon/facebook (2).png"
+                /></a>
+              </li>
+              <li>
+                <a href="#!" class="text-white"
+                  ><img id="sicon" src="/img/icon/instagram (1).png"
+                /></a>
+              </li>
+              <li>
+                <a href="#!" class="text-white"
+                  ><img id="sicon" src="/img/icon/twitter (1).png"
+                /></a>
+              </li>
+              <li>
+                <a href="#!" class="text-white"
+                  ><img id="sicon" src="/img/icon/tik-tok (1).png"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Weddingly.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="/js/atlahwoman.js"></script>
+  </body>
+</html>

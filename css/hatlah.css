@@ -1,0 +1,645 @@
+@font-face {
+    font-family: myFont;
+    src: url(/font/RolleteqakuRegular.ttf);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* nav */
+.navbar {
+
+    background-color: #9B7D67;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    border-bottom: solid white;
+    color: white;
+}
+
+.nav-link:focus {
+    border-bottom: solid white;
+    color: white;
+}
+
+.login {
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+    border-color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #fff;
+
+}
+
+.login:hover {
+    transform: scale(1.1);
+}
+
+.navleft {
+    margin-right: 20px;
+    text-transform: none;
+}
+
+#log {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-item {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: bolder;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#cart {
+    cursor: pointer;
+
+}
+
+#offlist {
+    list-style: none;
+
+}
+
+#offlist #link {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+
+
+}
+
+#offlist #link:hover {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+#off {
+    margin-bottom: 20px;
+}
+
+.dservices {
+    text-transform: none;
+}
+
+.dservices:focus {
+    background-color: #9b7d6770;
+}
+
+.dservices:hover {
+    background-color: #9b7d6770;
+}
+
+/* footer */
+
+.footer {
+    background-color: #9B7D67;
+}
+
+#footerimg {
+    width: 200px;
+    height: 200px;
+}
+
+#store {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+
+}
+
+.store,
+.icon {
+    margin-top: 30px;
+}
+
+.list-unstyled {
+    display: flex;
+}
+
+#sicon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+/* home */
+#main {
+    height: auto;
+    flex: 1
+    
+}
+
+
+
+
+#ser
+{
+   
+    font-size: large;
+    margin-right: 80px;
+    margin-top: 10PX;
+   
+    
+}
+#contener
+{
+    display: flex;
+    justify-content: center; /* يوسّط الكروت أفقيًا في الصفحة */
+    align-items: center;
+}
+#cards
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+  
+}
+
+.card
+{
+   
+    text-align: center; /* يضمن أن النص في الوسط */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* يوسّط العناصر أفقيًا */
+    justify-content: center; /* يوسّط العناصر رأسيًا */
+    border: transparent;
+    padding: 40px;
+    
+}
+.card-body
+{
+    width: 100%;
+}
+#more
+{
+   width: 100%;
+   background-color: #9B7D67;
+   display: block;
+   color: #fff;
+   
+
+}
+#more:hover
+{
+    transform: scale(1.02);
+}
+.card-text
+{
+    font-size: medium;
+}
+#atlahf
+{
+ 
+  width: 100%;
+  height:auto ;
+  border-radius: 10px;
+
+
+
+}
+#loca
+{
+    width: 20px;
+    height: 20px;
+}
+
+#high
+{
+   
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 30PX;
+}
+#ser
+{
+   
+    font-size: large;
+    margin-left: 40px;
+    margin-top: 10PX;
+}
+
+/* login /signin */
+
+
+#logt {
+    text-align: center;
+    text-transform: none;
+}
+
+#loginform {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: solid 2px black;
+    margin: 20px 0;
+    text-transform: none;
+}
+
+.logicon {
+    width: 20px;
+    height: 20px;
+
+}
+
+.remember-forget {
+    font-size: .9em;
+    color: #000000;
+    font-weight: 500;
+    margin: -10px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: none;
+}
+
+.remember-forget label input {
+    accent-color: black;
+    margin-right: 3px;
+
+}
+
+.remember-forget a {
+    color: black;
+    text-decoration: none;
+}
+
+.remember-forget a {
+    text-decoration: underline;
+}
+
+.loginb {
+    width: 100%;
+    height: 45px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: none;
+
+}
+
+.loginb:hover {
+    color: #fff;
+    transform: scale(1.01);
+}
+
+.login-register {
+    font-size: .9em;
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+    text-transform: none;
+}
+
+.login-register p a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.login-register p a:hover {
+    text-decoration: underline;
+}
+
+#forml {
+    text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* smaal screen */
+
+@media (min-width:1200px) and (max-width:2000px) {
+
+    .small {
+        display: none;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1200px) {
+
+    .small {
+        display: none;
+    }
+
+    .nav-item {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: bolder;
+    }
+
+    #sicon {
+        width: 25px;
+        height: 25px;
+
+
+    }
+
+    #store {
+        width: 100px;
+        height: 100px;
+    }
+
+    .footerimg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .text-uppercase {
+        font-size: medium;
+    }
+
+}
+
+@media (min-width:990px) and (max-width:1000px) {
+    #mnav {
+        display: none;
+    }
+
+    .navbar {
+        height: 110px;
+        justify-content: space-between;
+    }
+
+    .small {
+        visibility: visible;
+    }
+
+    .list-unstyled {
+        margin-right: 70px;
+    }
+
+    #sicon {
+        width: 25px;
+        height: 25px;
+
+
+    }
+
+    #store {
+        width: 100px;
+        height: 100px;
+    }
+
+    .footerimg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .text-uppercase {
+        font-size: medium;
+    }
+}
+
+@media (min-width:770px)and (max-width:990px) {
+    #mnav {
+        display: none;
+    }
+
+    .navbar {
+        height: 110px;
+        justify-content: space-between;
+    }
+
+    .small {
+        visibility: visible;
+    }
+
+    .list-unstyled {
+        margin-left: 70px;
+    }
+
+    #t-1:checked~.testimonials label[for="t-3"],
+    #t-2:checked~.testimonials label[for="t-4"],
+    #t-3:checked~.testimonials label[for="t-5"],
+    #t-4:checked~.testimonials label[for="t-1"],
+    #t-5:checked~.testimonials label[for="t-2"] {
+        transform: translate3d(450px, 0, -800px) rotateY(-25deg);
+        z-index: 2;
+    }
+
+    #t-1:checked~.testimonials label[for="t-2"],
+    #t-2:checked~.testimonials label[for="t-3"],
+    #t-3:checked~.testimonials label[for="t-4"],
+    #t-4:checked~.testimonials label[for="t-5"],
+    #t-5:checked~.testimonials label[for="t-1"] {
+        transform: translate3d(150px, 0, -200px) rotateY(-15deg);
+        z-index: 3;
+    }
+
+    #t-2:checked~.testimonials label[for="t-1"],
+    #t-3:checked~.testimonials label[for="t-2"],
+    #t-4:checked~.testimonials label[for="t-3"],
+    #t-5:checked~.testimonials label[for="t-4"],
+    #t-1:checked~.testimonials label[for="t-5"] {
+        transform: translate3d(-150px, 0, -200px) rotateY(15deg);
+        z-index: 3;
+    }
+
+    #t-3:checked~.testimonials label[for="t-1"],
+    #t-4:checked~.testimonials label[for="t-2"],
+    #t-5:checked~.testimonials label[for="t-3"],
+    #t-2:checked~.testimonials label[for="t-5"],
+    #t-1:checked~.testimonials label[for="t-4"] {
+        transform: translate3d(-450px, 0, -800px) rotateY(25deg);
+
+    }
+
+    #t-1:checked~.testimonials label[for="t-1"],
+    #t-2:checked~.testimonials label[for="t-2"],
+    #t-3:checked~.testimonials label[for="t-3"],
+    #t-4:checked~.testimonials label[for="t-4"],
+    #t-5:checked~.testimonials label[for="t-4"],
+    #t-5:checked~.testimonials label[for="t-5"] {
+
+        z-index: 4;
+    }
+
+    #plan {
+        margin-top: 30px;
+        font-family: myFont;
+        font-size: 60px;
+    }
+
+}
+
+@media (max-width:770px) {
+    #mnav {
+        display: none;
+    }
+
+    .navbar {
+        height: 110px;
+        justify-content: space-between;
+    }
+
+    .small {
+        visibility: visible;
+    }
+
+    .list-unstyled {
+        justify-content: center;
+    }
+
+    .imgw {
+        width: 200px;
+        height: 270px;
+    }
+
+    .testimonials .item {
+        width: 210px;
+        height: 280px;
+        border-radius: 5px;
+        position: absolute;
+        border: 3px solid white;
+        top: 0;
+        box-sizing: border-box;
+        text-align: center;
+        transition: transform 0.4s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        user-select: none;
+        cursor: pointer;
+    }
+
+
+
+
+
+    #t-1:checked~.testimonials label[for="t-3"],
+    #t-2:checked~.testimonials label[for="t-4"],
+    #t-3:checked~.testimonials label[for="t-5"],
+    #t-4:checked~.testimonials label[for="t-1"],
+    #t-5:checked~.testimonials label[for="t-2"] {
+        transform: translate3d(450px, 0, -800px) rotateY(-25deg);
+        z-index: 2;
+    }
+
+    #t-1:checked~.testimonials label[for="t-2"],
+    #t-2:checked~.testimonials label[for="t-3"],
+    #t-3:checked~.testimonials label[for="t-4"],
+    #t-4:checked~.testimonials label[for="t-5"],
+    #t-5:checked~.testimonials label[for="t-1"] {
+        transform: translate3d(150px, 0, -200px) rotateY(-15deg);
+        z-index: 3;
+    }
+
+    #t-2:checked~.testimonials label[for="t-1"],
+    #t-3:checked~.testimonials label[for="t-2"],
+    #t-4:checked~.testimonials label[for="t-3"],
+    #t-5:checked~.testimonials label[for="t-4"],
+    #t-1:checked~.testimonials label[for="t-5"] {
+        transform: translate3d(-150px, 0, -200px) rotateY(15deg);
+        z-index: 3;
+    }
+
+    #t-3:checked~.testimonials label[for="t-1"],
+    #t-4:checked~.testimonials label[for="t-2"],
+    #t-5:checked~.testimonials label[for="t-3"],
+    #t-2:checked~.testimonials label[for="t-5"],
+    #t-1:checked~.testimonials label[for="t-4"] {
+        transform: translate3d(-450px, 0, -800px) rotateY(25deg);
+
+    }
+
+    #t-1:checked~.testimonials label[for="t-1"],
+    #t-2:checked~.testimonials label[for="t-2"],
+    #t-3:checked~.testimonials label[for="t-3"],
+    #t-4:checked~.testimonials label[for="t-4"],
+    #t-5:checked~.testimonials label[for="t-4"],
+    #t-5:checked~.testimonials label[for="t-5"] {
+
+        z-index: 4;
+    }
+
+    #plan {
+        margin-top: 30px;
+        font-family: myFont;
+        font-size: 50px;
+    }
+
+    .testimonials {
+
+        min-height: 300px;
+
+    }
+    .card {
+        flex-direction: row;
+        text-align: left;
+        padding: 0px;
+    }
+
+#atlahf {
+       width: 40%;
+       height:auto;
+        border-radius: 10px 0 0 10px;
+    }
+
+
+
+    
+    #more {
+        margin-top: 200px;
+   
+        
+    }
+
+}
